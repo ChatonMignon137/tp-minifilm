@@ -1,0 +1,213 @@
+body,
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.background {
+    background-color: black;
+}
+
+.image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-img-top {
+    min-height: 50vh;
+}
+
+.one {
+    background-image: url(/template-mini-films-vide/assets/images/bg-cinema.jpeg);
+}
+
+.two {
+    background-image: url(/template-mini-films-vide/assets/images/salle-cinema.jpeg);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, );
+    color: #fff0c2;
+    font-weight: bold;
+    font-size: 60px;
+    border: 8px solid #000000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 270px;
+    padding: 50px;
+    text-align: center;
+}
+
+.espacée2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+.text-blanc {
+    color: white;
+}
+
+.sans_serif {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.taille_card {
+    min-height: 25%;
+}
+
+.center {
+    margin-left: 33%;
+}
+
+.navbar>.container-fluid {
+    justify-content: initial;
+}
+
+.boutton {
+    background-color: gray;
+    border-radius: 66%;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.boutton2 {
+    background-color: gray;
+    border-radius: 66%;
+}
+
+.center2 {
+    margin-left: 6%
+}
+
+.card {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0 5px;
+    background-color: #000000;
+}
+
+.film-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.espacee {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    color: white;
+    min-height: 5vw;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-img-top {
+    height: 79%;
+}
+
+.text-right {
+    margin-left: 75%;
+}
+
+.no-color {
+    text-decoration: none;
+    color: white;
+}
+
+.Space-link {
+    display: flex;
+    justify-content: center;
+}
+
+.text-left {
+    margin-right: 90%;
+}
+
+.height-img {
+    height: 25%;
+}
+
+.width-img {
+    width: 25%
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vw;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social h4 {
+    color: white;
+}
+
+.social a img {
+    width: 5vw;
+    height: 3vw;
+}
+
+.credit {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: white;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link h4 {
+    color: white;
+}
+
+.link a {
+    color: grey;
+}
