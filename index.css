@@ -19,11 +19,11 @@ html {
 }
 
 .one {
-    background-image: url(/template-mini-films-vide/assets/images/bg-cinema.jpeg);
+    background-image: url('./assets/images/bg-cinema.jpeg');
 }
 
 .two {
-    background-image: url(/template-mini-films-vide/assets/images/salle-cinema.jpeg);
+    background-image: url('./assets/images/salle-cinema.jpeg');
 }
 
 .content {
